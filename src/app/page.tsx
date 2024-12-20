@@ -8,5 +8,5 @@ export default function Home() {
   useEffect(() => {
     router.push('/leads');
   }, []);
-  return <div></div>;
+  return <div className='flex justify-center items-center flex-1'> <p className='font-bold text-3xl'>Loading...</p></div>;
 }
